@@ -49,5 +49,8 @@ public class Song {
         return name;
       }
 
+      public String getArtist(){
+        return artist;
+      }
 
 }
