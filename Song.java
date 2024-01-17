@@ -61,4 +61,8 @@ public class Song {
         return isLiked;
       }
 
+      public String toString(){
+        return "name: " + name + " artist: " + artist + " duration: " + duration + " is liked: " + isLiked;
+      }
+
 }
