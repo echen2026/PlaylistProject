@@ -27,6 +27,15 @@ public class PlaylistTester {
 
         yunomilesbesthits.addSong(indianajones);
 
+        yunomilesbesthits.addSong(fourwheeler);
+
+        yunomilesbesthits.addSong(firstdayofchristmas);
+
+        yunomilesbesthits.addSong(spiderpig);
+
+        yunomilesbesthits.addSong(fivehundredlbs);
+
+
         System.out.println("Printing the songs...\n");
         //Print out all the songs in the playlist to verify it's working correctly
 
