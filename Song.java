@@ -62,7 +62,14 @@ public class Song {
       }
 
       public String toString(){
-        return "name: " + name + " artist: " + artist + " duration: " + duration + " is liked: " + isLiked;
+        int minutes = duration/60;
+        int seconds = duration%60;
+        String status = "";
+        if(isLiked){
+          status = "[Liked]";
+        } 
+        
+        return name + " by " + artist + ". " + " Duration: " + minutes + ":" + seconds + "." + " " + isLiked;
       }
 
 }
