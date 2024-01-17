@@ -69,7 +69,7 @@ public class Song {
           status = "[Liked]";
         } 
         
-        return name + " by " + artist + ". " + " Duration: " + minutes + ":" + seconds + "." + " " + isLiked;
+        return name + " by " + artist + ". " + " Duration: " + minutes + ":" + seconds + "." + " " + status;
       }
 
 }
