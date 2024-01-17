@@ -78,7 +78,7 @@ public class Playlist {
 
        public void listLikedSongs(){
           for(int i = 0; i < playlist.size(); i++){
-            if(playlist.get(i).getIsLiked==true){
+            if(playlist.get(i).getIsLiked()){
               System.out.println(playlist.get(i).toString());
             }
           }
