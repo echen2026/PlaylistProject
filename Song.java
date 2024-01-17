@@ -53,4 +53,8 @@ public class Song {
         return artist;
       }
 
+      public int getDuration(){
+        return duration;
+      }
+
 }
