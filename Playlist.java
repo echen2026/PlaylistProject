@@ -57,7 +57,7 @@ public class Playlist {
        public void getPlaylistDuration(){
           int total = 0;
           for(int i = 0; i < playlist.size(); i++){
-            total += playlist.get(i).getDuration;
+            total += playlist.get(i).getDuration();
           }
        }
 
