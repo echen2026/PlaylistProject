@@ -96,4 +96,13 @@ public class Playlist {
           }
        }
 
+       public void removeUnlikedSongs(){
+          for(int i = 0; i < playlist.size(); i++){
+            if(playlist.get(i).getIsLiked()==false){
+              playlist.remove(i);
+              i--;
+            }
+          }
+       }
+
 }
