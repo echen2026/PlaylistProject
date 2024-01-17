@@ -26,19 +26,14 @@ public class PlaylistTester {
          */
 
         yunomilesbesthits.addSong(indianajones);
-
         yunomilesbesthits.addSong(fourwheeler);
-
         yunomilesbesthits.addSong(firstdayofchristmas);
-
         yunomilesbesthits.addSong(spiderpig);
-
         yunomilesbesthits.addSong(fivehundredlbs);
-
 
         System.out.println("Printing the songs...\n");
         //Print out all the songs in the playlist to verify it's working correctly
-
+        yunomilesbesthits.listSongs();
 
         System.out.println("\nLiking the songs in position X, Y, Z, etc....\n");
         //Once your songs are 'liked', this should be reflected in the next printout
