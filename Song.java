@@ -57,4 +57,8 @@ public class Song {
         return duration;
       }
 
+      public boolean getIsLiked(){
+        return isLiked;
+      }
+
 }
