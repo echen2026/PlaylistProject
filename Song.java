@@ -5,7 +5,10 @@
  */
 public class Song {
     //Fields-- what information do we want each Song to store?
-
+    private String name;
+    private String artist;
+    private int duration; //in seconds
+    private boolean isLiked;
 
 
 
@@ -27,4 +30,4 @@ public class Song {
       */
 
 
-}a
+}
