@@ -79,7 +79,7 @@ public class Playlist {
            } else {
              finalSeconds = Integer.toString(seconds);
            }
-           return finalSeconds;
+           return "("+minutes+":"+seconds+")";
        }
 
        public void listSongs(){
