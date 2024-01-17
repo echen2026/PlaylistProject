@@ -61,7 +61,7 @@ public class PlaylistTester {
         System.out.println("\nPrinting the total duration of all songs...\n");
         //Note that the format should look something like minutes:seconds
 
-        yunomilesbesthits.getPlaylistDuration();
+        System.out.println(yunomilesbesthits.getPlaylistDuration());
 
 
         System.out.println("\nRemoving all unliked songs from the playlist...\n");
