@@ -13,13 +13,19 @@ public class PlaylistTester {
         Playlist yunomilesbesthits = new Playlist();
 
         System.out.println("Adding songs to the Playlist...\n");
+        Song indianajones = new Song("Indian Jones", "Yuno Miles", 63);
+        Song fourwheeler = new Song("4 Wheeler", "Yuno Miles", 106);
+        Song firstdayofchristmas = new Song("First Day of Christmas", "Yuno Miles", 121);
+        Song spiderpig = new Song("Spider Pig", "Hans Zimmer", 64);
+        Song fivehundredlbs = new Song("500 lbs", "Lil Tecca", 142);
+
         /**
          * Add some songs here. Note that the format for adding a Song to a Playlist p
          * is something like...
          * p.addSong(new Song(..., ..., ...))
          */
 
-        yunomilesbesthits.addSong()
+        yunomilesbesthits.addSong(indianajones);
 
         System.out.println("Printing the songs...\n");
         //Print out all the songs in the playlist to verify it's working correctly
