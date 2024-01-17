@@ -45,5 +45,9 @@ public class Song {
         isLiked = myIsLiked;
       }
 
+      public String getName(){
+        return name;
+      }
+
 
 }
