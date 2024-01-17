@@ -70,5 +70,6 @@ public class PlaylistTester {
 
         System.out.println("Printing all songs...\n");
         //This should now look like only the liked songs list from before
+        yunomilesbesthits.listSongs();
     }
 }
