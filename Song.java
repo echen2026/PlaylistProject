@@ -64,12 +64,19 @@ public class Song {
       public String toString(){
         int minutes = duration/60;
         int seconds = duration%60;
+        String finalSeconds = "";
+        if(seconds<10){
+          finalSeconds = "0" + Integer.toString(seconds);
+        } else {
+          finalSeconds = Integer.toString(seconds);
+        }
+        
         String status = "";
         if(isLiked){
           status = "[Liked]";
         } 
         
-        return name + " by " + artist + ". " + " Duration: " + minutes + ":" + seconds + "." + " " + status;
+        return "'"+ name + "'" + " by " + artist + " (" + minutes + ":" + finalSeconds + ")" + " " + status;
       }
 
 }
