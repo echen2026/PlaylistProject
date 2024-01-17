@@ -66,10 +66,12 @@ public class PlaylistTester {
 
         System.out.println("\nRemoving all unliked songs from the playlist...\n");
         //This should be doable with a single method call
+        yunomilesbesthits.removeUnlikedSongs();
 
 
         System.out.println("Printing all songs...\n");
         //This should now look like only the liked songs list from before
         yunomilesbesthits.listSongs();
+        System.out.println();
     }
 }
