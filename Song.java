@@ -41,5 +41,9 @@ public class Song {
       * What kind of mutator (setter) methods will you need?
       */
 
+      public void like(boolean myIsLiked){
+        isLiked = myIsLiked;
+      }
+
 
 }
