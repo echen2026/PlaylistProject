@@ -46,4 +46,12 @@ public class Playlist {
           }
        }
 
+       public void removeSong(Song mySong){
+          for(int i = 0; i < playlist.size(); i++){
+            if (playlist.get(i).equals(mySong)){
+              playlist.remove(i);
+            }
+          }
+       }
+
 }
