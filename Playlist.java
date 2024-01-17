@@ -46,6 +46,14 @@ public class Playlist {
           }
        }
 
+       public void unlikeSong(Song mySong){
+        for(int i = 0; i < playlist.size(); i++){
+            if (playlist.get(i).equals(mySong)){
+              mySong.like(false);
+            }
+          }
+       }
+
        public void removeSong(Song mySong){
           for(int i = 0; i < playlist.size(); i++){
             if (playlist.get(i).equals(mySong)){
