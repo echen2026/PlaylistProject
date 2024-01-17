@@ -72,7 +72,15 @@ public class Playlist {
 
        public void listSongs(){
           for(int i = 0; i < playlist.size(); i++){
-            playlist.get(i).toString();
+            System.out.println(playlist.get(i).toString());
+          }
+       }
+
+       public void listLikedSongs(){
+          for(int i = 0; i < playlist.size(); i++){
+            if(playlist.get(i).getIsLiked==true){
+              System.out.println(playlist.get(i).toString());
+            }
           }
        }
 
