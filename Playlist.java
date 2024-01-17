@@ -41,7 +41,7 @@ public class Playlist {
        public void likeSong(Song mySong){
           for(int i = 0; i < playlist.size(); i++){
             if (playlist.get(i).equals(mySong)){
-              Song.like(true);
+              mySong.like(true);
             }
           }
        }
