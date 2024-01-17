@@ -70,4 +70,10 @@ public class Playlist {
           return total;
        }
 
+       public void listSongs(){
+          for(int i = 0; i < playlist.size(); i++){
+            playlist.get(i).toString();
+          }
+       }
+
 }
