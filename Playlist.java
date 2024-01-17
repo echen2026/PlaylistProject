@@ -62,12 +62,24 @@ public class Playlist {
           }
        }
 
-       public int getPlaylistDuration(){
+       public String getPlaylistDuration(){
+
+        
           int total = 0;
           for(int i = 0; i < playlist.size(); i++){
             total += playlist.get(i).getDuration();
           }
-          return total;
+
+
+          int minutes = total/60;
+          int seconds = total%60;
+           String finalSeconds = "";
+           if(seconds<10){
+             finalSeconds = "0" + Integer.toString(seconds);
+           } else {
+             finalSeconds = Integer.toString(seconds);
+           }
+           return finalSeconds;
        }
 
        public void listSongs(){
