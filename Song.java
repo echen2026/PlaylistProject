@@ -24,7 +24,10 @@ public class Song {
     }
 
     public Song(String myName, String myArtist, int myDuration){
-        
+        name = myName;
+        artist = myArtist;
+        duration = myDuration;
+        isLiked = false;
     }
 
 
